@@ -27,10 +27,10 @@
     "test"
   ],
   "devDependencies": {
-    "@shinnn/eslint-config": "^3.3.5",
-    "eslint": "^3.12.2",
+    "@shinnn/eslint-config": "^4.0.0",
+    "eslint": "^4.0.0",
     "istanbul": "^0.4.5",
-    "rollup": "^0.37.0",
+    "rollup": "^0.43.0",
     "rollup-config-module": "^1.0.0",
     "tape": "^4.6.3"
   },

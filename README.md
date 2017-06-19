@@ -4,7 +4,6 @@
 [![Bower version](https://img.shields.io/bower/v/is-ascii-control-char-code.svg)](https://github.com/shinnn/is-ascii-control-char-code/releases)
 [![Build Status](https://travis-ci.org/shinnn/is-ascii-control-char-code.svg?branch=master)](https://travis-ci.org/shinnn/is-ascii-control-char-code)
 [![Coverage Status](https://img.shields.io/coveralls/shinnn/is-ascii-control-char-code.svg)](https://coveralls.io/r/shinnn/is-ascii-control-char-code)
-[![devDependencies Status](https://david-dm.org/shinnn/is-ascii-control-char-code/dev-status.svg)](https://david-dm.org/shinnn/is-ascii-control-char-code?type=dev)
 
 Check if a given value is one of the ASCII control character codes
 
@@ -64,6 +63,6 @@ isAsciiControlCharCode();
 
 ## License
 
-Copyright (c) 2016 [Shinnosuke Watanabe](https://github.com/shinnn)
+Copyright (c) 2016 - 2017 [Shinnosuke Watanabe](https://github.com/shinnn)
 
 Licensed under [the MIT License](./LICENSE).
