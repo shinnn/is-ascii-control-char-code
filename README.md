@@ -1,7 +1,6 @@
 # is-ascii-control-char-code
 
-[![NPM version](https://img.shields.io/npm/v/is-ascii-control-char-code.svg)](https://www.npmjs.com/package/is-ascii-control-char-code)
-[![Bower version](https://img.shields.io/bower/v/is-ascii-control-char-code.svg)](https://github.com/shinnn/is-ascii-control-char-code/releases)
+[![npm version](https://img.shields.io/npm/v/is-ascii-control-char-code.svg)](https://www.npmjs.com/package/is-ascii-control-char-code)
 [![Build Status](https://travis-ci.org/shinnn/is-ascii-control-char-code.svg?branch=master)](https://travis-ci.org/shinnn/is-ascii-control-char-code)
 [![Coverage Status](https://img.shields.io/coveralls/shinnn/is-ascii-control-char-code.svg)](https://coveralls.io/r/shinnn/is-ascii-control-char-code)
 
@@ -16,16 +15,10 @@ isAsciiControlCharCode(100); //=> false
 
 ## Installation
 
-### [npm](https://www.npmjs.com/)
+[Use](https://docs.npmjs.com/cli/install) [npm](https://docs.npmjs.com/about-npm/index.html).
 
 ```
 npm install is-ascii-control-char-code
-```
-
-### [Bower](https://bower.io/)
-
-```
-bower install is-ascii-control-char-code
 ```
 
 ## API
@@ -36,8 +29,8 @@ import isAsciiControlCharCode from 'is-ascii-control-char-code';
 
 ### isAsciiControlCharCode(*charCode*)
 
-*charCode*: `Number`  
-Return: `Boolean`
+*charCode*: `number`  
+Return: `boolean`
 
 It returns `true` if the argument is a whole number no fewer than `0` and no greater than `31`, or `127`. Otherwise, it returns `false`.
 
