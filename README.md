@@ -1,8 +1,8 @@
 # is-ascii-control-char-code
 
 [![npm version](https://img.shields.io/npm/v/is-ascii-control-char-code.svg)](https://www.npmjs.com/package/is-ascii-control-char-code)
-[![Build Status](https://travis-ci.org/shinnn/is-ascii-control-char-code.svg?branch=master)](https://travis-ci.org/shinnn/is-ascii-control-char-code)
-[![Coverage Status](https://img.shields.io/coveralls/shinnn/is-ascii-control-char-code.svg)](https://coveralls.io/r/shinnn/is-ascii-control-char-code)
+[![Build Status](https://travis-ci.com/shinnn/is-ascii-control-char-code.svg?branch=master)](https://travis-ci.com/shinnn/is-ascii-control-char-code)
+[![codecov](https://codecov.io/gh/shinnn/is-ascii-control-char-code/branch/master/graph/badge.svg)](https://codecov.io/gh/shinnn/is-ascii-control-char-code)
 
 Check if a given value is one of the ASCII control character codes
 
@@ -15,7 +15,7 @@ isAsciiControlCharCode(100); //=> false
 
 ## Installation
 
-[Use](https://docs.npmjs.com/cli/install) [npm](https://docs.npmjs.com/about-npm/index.html).
+[Use](https://docs.npmjs.com/cli/install) [npm](https://docs.npmjs.com/about-npm/).
 
 ```
 npm install is-ascii-control-char-code
@@ -50,9 +50,9 @@ isAsciiControlCharCode('non-number argument');
 isAsciiControlCharCode();
 ```
 
-## Related project
+## Related
 
-[is-ascii-control-char](https://github.com/shinnn/is-ascii-control-char) - Check a character instead of a character code
+* [is-ascii-control-char](https://github.com/shinnn/is-ascii-control-char) - Check a character instead of a character code
 
 ## License
 

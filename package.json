@@ -2,14 +2,14 @@
 	"name": "is-ascii-control-char-code",
 	"version": "2.0.0-0",
 	"description": "Check if a given value is one of the ASCII control character codes",
-	"repository": "shinnn/is-ascii-control-char-code",
 	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+	"repository": "shinnn/is-ascii-control-char-code",
 	"license": "CC0-1.0",
 	"scripts": {
 		"prebuild": "eslint .",
 		"build": "rollup --config=node:module",
 		"pretest": "npm run-script build",
-		"test": "nyc node test.js"
+		"test": "coverage test.js"
 	},
 	"module": "index.mjs",
 	"files": [
@@ -27,18 +27,14 @@
 		"test"
 	],
 	"devDependencies": {
-		"@shinnn/eslint-config": "^6.8.1",
-		"eslint": "^5.8.1",
-		"nyc": "^13.1.0",
-		"nyc-config-common": "^1.0.1",
-		"rollup": "^0.67.3",
-		"rollup-config-module": "^2.0.1",
-		"tape": "^4.9.1"
+		"@shinnn/eslint-config": "^6.10.3",
+		"coverage": "^0.3.0",
+		"eslint": "^5.16.0",
+		"rollup": "^1.10.1",
+		"rollup-config-module": "^2.0.2",
+		"tape": "^4.10.1"
 	},
 	"eslintConfig": {
 		"extends": "@shinnn"
-	},
-	"nyc": {
-		"extends": "nyc-config-common"
 	}
 }

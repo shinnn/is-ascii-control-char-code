@@ -1,9 +1,5 @@
 'use strict';
 
-/*!
- * is-ascii-control-char-code | MIT (c) Shinnosuke Watanabe
- * https://github.com/shinnn/is-control-char-code
-*/
 module.exports = function isControllCharCode(code) {
 	if (typeof code !== 'number') {
 		return false;
