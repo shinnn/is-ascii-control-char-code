@@ -56,4 +56,4 @@ isAsciiControlCharCode();
 
 ## License
 
-[Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/deed)
+[BSD Zero Clause License](./LICENSE) © 2019 Shinnosuke Watanabe
