@@ -12,43 +12,49 @@ test('isAsciiControllCharCode', t => {
 		'should return true when it takes a code of ASCII control character.'
 	);
 
-	t.strictEqual(
+	t.equal(
+		isAsciiControllCharCode(-0),
+		true,
+		'should not distinguish between a positive zero and a negative zero.'
+	);
+
+	t.equal(
 		isAsciiControllCharCode('1'),
 		false,
 		'should return false when it takes a non-number value.'
 	);
 
-	t.strictEqual(
+	t.equal(
 		isAsciiControllCharCode(-1),
 		false,
 		'should return false when it takes a negative number.'
 	);
 
-	t.strictEqual(
+	t.equal(
 		isAsciiControllCharCode(32),
 		false,
 		'should return false when it takes a number more than 31 but not 127.'
 	);
 
-	t.strictEqual(
+	t.equal(
 		isAsciiControllCharCode(10.5),
 		false,
 		'should return false when it takes a non-integer number.'
 	);
 
-	t.strictEqual(
+	t.equal(
 		isAsciiControllCharCode(Infinity),
 		false,
 		'should return false when it takes a infinite number.'
 	);
 
-	t.strictEqual(
+	t.equal(
 		isAsciiControllCharCode(NaN),
 		false,
 		'should return false when it takes NaN.'
 	);
 
-	t.strictEqual(
+	t.equal(
 		isAsciiControllCharCode(),
 		false,
 		'should return false when it takes no arguments.'
