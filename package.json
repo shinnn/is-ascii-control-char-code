@@ -1,6 +1,6 @@
 {
 	"name": "is-ascii-control-char-code",
-	"version": "2.0.0-0",
+	"version": "2.0.0",
 	"description": "Check if a given value is one of the ASCII control character codes",
 	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
 	"repository": "shinnn/is-ascii-control-char-code",
@@ -30,7 +30,7 @@
 		"@shinnn/eslint-config": "^6.10.3",
 		"coverage": "^0.3.0",
 		"eslint": "^5.16.0",
-		"rollup": "^1.10.1",
+		"rollup": "^1.11.2",
 		"rollup-config-module": "^2.0.2",
 		"tape": "^4.10.1"
 	},
